@@ -12,8 +12,6 @@ board = [
     [0,4,9,2,0,6,0,0,7]
 ]
 
-print ("hello")
-
 def solve(bo):
     find = find_empty(bo)
     if not find:
